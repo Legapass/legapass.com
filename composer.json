@@ -52,7 +52,7 @@
   },
   "type": "package",
     "package": {
-        "name": "rtcamp/rtbiz-helpdesk",
+        "name": "themeforest/theme",
         "type": "wordpress-plugin",
         "version": "1.0.0",
         "dist": {
