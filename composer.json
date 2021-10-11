@@ -26,17 +26,7 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://wpackagist.org",
-      "type": "package",
-      "package": {
-        "name": "rtcamp/rtbiz-helpdesk",
-        "type": "wordpress-plugin",
-        "version": "1.0.0",
-        "dist": {
-            "type": "zip",
-            "url": "https://github.com/Legapass/ZipTheme/raw/main/themeforest-MQ5YJLqX-motor-vehicles-parts-equipments-accessories-wordpress-woocommerce-theme-wordpress-theme.zip"
-        }
-      }
+      "url": "https://wpackagist.org"
     }
   ],
   "require": {
@@ -50,6 +40,7 @@
     "humanmade/s3-uploads": "~2.2",
     "wpackagist-plugin/mailgun": "1.7.1",
     "wpackagist-plugin/elementor": "3.4.4"
+    "rtcamp/rtbiz-helpdesk": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
