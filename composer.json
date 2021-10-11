@@ -28,7 +28,7 @@
       "type": "composer",
       "url": "https://wpackagist.org",
       "type": "package",
-    "package": {
+      "package": {
         "name": "rtcamp/rtbiz-helpdesk",
         "type": "wordpress-plugin",
         "version": "1.0.0",
@@ -36,7 +36,7 @@
             "type": "zip",
             "url": "https://github.com/Legapass/ZipTheme/raw/main/themeforest-MQ5YJLqX-motor-vehicles-parts-equipments-accessories-wordpress-woocommerce-theme-wordpress-theme.zip"
         }
-    }
+      }
     }
   ],
   "require": {
