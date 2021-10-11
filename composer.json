@@ -55,7 +55,8 @@
     "themeforest/veapp": "1.0.0",
     "wpackagist-theme/hello-elementor": "2.4.1",
     "wpackagist-plugin/template-kit-import": "1.0.12",
-    "wpackagist-plugin/header-footer-elementor": "1.6.4"
+    "wpackagist-plugin/header-footer-elementor": "1.6.4",
+    "wpackagist-plugin/coming-soon": "6.6.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
