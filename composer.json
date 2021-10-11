@@ -26,7 +26,7 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://wpackagist.org"
+      "url": "https://wpackagist.org",
       "type": "package",
     "package": {
         "name": "rtcamp/rtbiz-helpdesk",
