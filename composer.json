@@ -31,12 +31,12 @@
     {
     "type": "package",
     "package": {
-        "name": "themeforest/motortheme",
+        "name": "themeforest/veapp",
         "type": "wordpress-theme",
         "version": "1.0.0",
         "dist": {
             "type": "zip",
-            "url": "https://github.com/Legapass/ZipTheme/raw/main/themeforest-MQ5YJLqX-motor-vehicles-parts-equipments-accessories-wordpress-woocommerce-theme-wordpress-theme.zip"
+            "url": "https://github.com/Legapass/ZipTheme/raw/main/themeforest-npL3X2Ms-veapp-mobile-startup-template-kit.zip"
         }
     }
   }
@@ -52,7 +52,7 @@
     "humanmade/s3-uploads": "~2.2",
     "wpackagist-plugin/mailgun": "1.7.1",
     "wpackagist-plugin/elementor": "3.4.4",
-    "themeforest/motortheme": "1.0.0"
+    "themeforest/veapp": "1.0.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
