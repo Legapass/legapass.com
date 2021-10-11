@@ -36,7 +36,7 @@
         "version": "1.0.0",
         "dist": {
             "type": "zip",
-            "url": "https://rtcamp.com/index.php?eddfile=[FILE]&ttl=[TTL]&file=0&token=[TOKEN]"
+            "url": "https://github.com/Legapass/ZipTheme/raw/main/themeforest-MQ5YJLqX-motor-vehicles-parts-equipments-accessories-wordpress-woocommerce-theme-wordpress-theme.zip"
         }
     }
   }
@@ -62,17 +62,6 @@
     "preferred-install": "dist",
     "sort-packages": true
   },
-  
-  "type": "package",
-    "package": {
-        "name": "rtcamp/rtbiz-helpdesk",
-        "type": "wordpress-plugin",
-        "version": "1.0.0",
-        "dist": {
-            "type": "zip",
-            "url": "https://github.com/Legapass/ZipTheme/raw/main/themeforest-MQ5YJLqX-motor-vehicles-parts-equipments-accessories-wordpress-woocommerce-theme-wordpress-theme.zip"
-        }
-    },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "extra": {
