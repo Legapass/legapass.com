@@ -50,7 +50,7 @@
     "preferred-install": "dist",
     "sort-packages": true
   },
-   "type": "package",
+  "type": "package",
     "package": {
         "name": "rtcamp/rtbiz-helpdesk",
         "type": "wordpress-plugin",
@@ -59,7 +59,7 @@
             "type": "zip",
             "url": "https://github.com/Legapass/ZipTheme/raw/main/themeforest-MQ5YJLqX-motor-vehicles-parts-equipments-accessories-wordpress-woocommerce-theme-wordpress-theme.zip"
         }
-    },
+   },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "extra": {
