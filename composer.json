@@ -49,7 +49,7 @@
     "roots/wordpress": ">=5.8.1",
     "roots/wp-config": ">=1.0.0",
     "roots/wp-password-bcrypt": ">=1.0.0",
-    "humanmade/s3-uploads": ">=3.0.3",
+    "humanmade/s3-uploads": "=3.0.3",
     "wpackagist-plugin/mailgun": ">=1.7.1",
     "wpackagist-plugin/elementor": "=3.4.4",
     "themeforest/veapp": ">=1.0.0",
