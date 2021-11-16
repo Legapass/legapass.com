@@ -57,8 +57,7 @@
     "wpackagist-plugin/template-kit-import": ">=1.0.12",
     "wpackagist-plugin/header-footer-elementor": ">=1.6.5",
     "wpackagist-plugin/coming-soon": ">=6.6.0",
-    "wpackagist-plugin/contact-form-7": ">=5.5",
-    "wpackagist-plugin/form-generator-powered-by-jotform": "=1.5.2"
+    "wpackagist-plugin/contact-form-7": ">=5.5"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
