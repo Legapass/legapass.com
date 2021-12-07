@@ -63,7 +63,8 @@
     "wpackagist-plugin/coming-soon": ">=6.6.0",
     "wpackagist-plugin/contact-form-7": ">=5.5",
     "wpackagist-plugin/wordpress-seo": ">=17.6",
-    "koodimonni-language/fr_fr": "*"
+    "koodimonni-language/fr_fr": "*",
+    "koodimonni-language/core-fr_fr": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
