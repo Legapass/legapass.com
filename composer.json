@@ -80,6 +80,11 @@
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
+     "dropin-paths": {
+            "htdocs/wp-content/languages/": ["vendor:koodimonni-language"],
+            "htdocs/wp-content/languages/plugins/": ["vendor:koodimonni-plugin-language"],
+            "htdocs/wp-content/languages/themes/": ["vendor:koodimonni-theme-language"]
+    },
     "wordpress-install-dir": "web/wp"
   },
   "scripts": {
