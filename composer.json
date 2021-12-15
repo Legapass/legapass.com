@@ -68,6 +68,7 @@
     "wpackagist-plugin/coming-soon": ">=6.6.0",
     "wpackagist-plugin/contact-form-7": ">=5.5",
     "wpackagist-plugin/wordpress-seo": ">=17.6",
+    "wpackagist-plugin/classic-editor" : "latest",
     "koodimonni-language/fr_fr": "*",
     "koodimonni-language/core-fr_fr": "*",
     "hipdevteam/elementor-pro": "*"
