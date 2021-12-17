@@ -94,6 +94,8 @@ Config::define('DISALLOW_FILE_EDIT', true);
 // Disable plugin and theme updates and installation from the admin
 Config::define('DISALLOW_FILE_MODS', true);
 
+Config::define('WP_CACHE', true);
+
 /**
  * S3 Uploads Settings
  */
