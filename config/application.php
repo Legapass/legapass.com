@@ -95,6 +95,7 @@ Config::define('DISALLOW_FILE_EDIT', true);
 Config::define('DISALLOW_FILE_MODS', true);
 
 Config::define('WP_CACHE', true);
+Config::define('DISABLE_WP_CRON', true);
 
 /**
  * S3 Uploads Settings
