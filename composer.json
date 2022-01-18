@@ -60,7 +60,7 @@
             "url": "https://github.com/Legapass/ZipTheme/raw/main/axeptio-cookies.zip"
         }
     }
-  }
+  },
   ],
   "require": {
     "php": ">=7.1",
