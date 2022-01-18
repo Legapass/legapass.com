@@ -88,7 +88,8 @@
     "wpackagist-plugin/headers-security-advanced-hsts-wp": "^4.7.15",
     "koodimonni-language/fr_fr": "*",
     "koodimonni-language/core-fr_fr": "*",
-    "hipdevteam/elementor-pro": "*"
+    "hipdevteam/elementor-pro": "*",
+    "axeptio/cookies" ">=1.0.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
