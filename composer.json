@@ -48,6 +48,18 @@
             "url": "https://github.com/Legapass/ZipTheme/raw/main/themeforest-npL3X2Ms-veapp-mobile-startup-template-kit.zip"
         }
     }
+  },
+    {
+    "type": "package",
+    "package": {
+        "name": "axeptio/cookies",
+        "type": "wordpress-plugin",
+        "version": "1.0.0",
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/Legapass/ZipTheme/blob/main/axeptio-cookies.zip"
+        }
+    }
   }
   ],
   "require": {
@@ -74,7 +86,6 @@
     "wpackagist-plugin/wp-2fa": "^2.0.1",
     "wpackagist-plugin/disable-xml-rpc": "^1.0.1",
     "wpackagist-plugin/headers-security-advanced-hsts-wp": "^4.7.15",
-    "wpackagist-plugin/custom-css-js": "^3.38.1",
     "koodimonni-language/fr_fr": "*",
     "koodimonni-language/core-fr_fr": "*",
     "hipdevteam/elementor-pro": "*"
