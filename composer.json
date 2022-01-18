@@ -74,6 +74,7 @@
     "wpackagist-plugin/wp-2fa": "^2.0.1",
     "wpackagist-plugin/disable-xml-rpc": "^1.0.1",
     "wpackagist-plugin/headers-security-advanced-hsts-wp": "^4.7.15",
+    "wpackagist-plugin/custom-css-js": "^3.38.1",
     "koodimonni-language/fr_fr": "*",
     "koodimonni-language/core-fr_fr": "*",
     "hipdevteam/elementor-pro": "*"
