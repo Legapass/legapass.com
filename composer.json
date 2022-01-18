@@ -89,7 +89,7 @@
     "koodimonni-language/fr_fr": "*",
     "koodimonni-language/core-fr_fr": "*",
     "hipdevteam/elementor-pro": "*",
-    "axeptio/cookies" ">=1.0.0"
+    "axeptio/cookies": ">=1.0.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
