@@ -88,7 +88,7 @@
     "wpackagist-plugin/seo-by-rank-math": "^1.0.80",
     "wpackagist-plugin/wp-mail-smtp": "^3.2.1",
     "wpackagist-plugin/gtranslate": "^2.9.10",
-    "wpackagist-plugin/contact-form-7-honeypot":"^2.1",
+    "wpackagist-plugin/really-simple-captcha":"^2.1",
     "koodimonni-language/fr_fr": "*",
     "koodimonni-language/core-fr_fr": "*",
     "hipdevteam/elementor-pro": "*",
