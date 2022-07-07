@@ -102,7 +102,7 @@
     "allow-plugins": {
     "composer/installers": true,
     "roots/wordpress-core-installer": true
-    }
+    },
     "optimize-autoloader": true,
     "preferred-install": "dist",
     "sort-packages": true
