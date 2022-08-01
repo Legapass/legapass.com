@@ -101,6 +101,7 @@
   "config": {
     "allow-plugins": {
     "composer/installers": true,
+    "koodimonni/composer-dropin-installer": true,
     "roots/wordpress-core-installer": true
     },
     "optimize-autoloader": true,
