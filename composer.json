@@ -71,7 +71,7 @@
     "roots/wp-config": ">=1.0.0",
     "roots/wp-password-bcrypt": ">=1.0.0",
     "humanmade/s3-uploads": ">=3.0.3",
-    "wpackagist-plugin/elementor": ">=3.4.4",
+    "wpackagist-plugin/elementor": "=3.4.4",
     "themeforest/veapp": ">=1.0.0",
     "wpackagist-theme/hello-elementor": ">=2.4.1",
     "wpackagist-plugin/template-kit-import": ">=1.0.12",
