@@ -64,7 +64,7 @@
      {
     "type": "package",
     "package": {
-        "name": "translatepress-business",
+        "name": "translatepress/business",
         "type": "wordpress-plugin",
         "version": "1.2.2",
         "dist": {
