@@ -49,18 +49,6 @@
         }
     }
   },
-    {
-    "type": "package",
-    "package": {
-        "name": "axeptio/cookies",
-        "type": "wordpress-plugin",
-        "version": "1.0.0",
-        "dist": {
-            "type": "zip",
-            "url": "https://github.com/Legapass/ZipTheme/raw/main/axeptio-cookies.zip"
-        }
-    }
-  },
      {
     "type": "package",
     "package": {
@@ -70,6 +58,18 @@
         "dist": {
             "type": "zip",
             "url": "https://github.com/Legapass/ZipTheme/raw/main/translatepress-business-1.2.2.zip"
+        }
+    }
+  },
+    {
+    "type": "package",
+    "package": {
+        "name": "axeptio/cookies",
+        "type": "wordpress-plugin",
+        "version": "1.0.0",
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/Legapass/ZipTheme/raw/main/axeptio-cookies.zip"
         }
     }
   }
