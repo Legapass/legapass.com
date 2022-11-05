@@ -60,6 +60,18 @@
             "url": "https://github.com/Legapass/ZipTheme/raw/main/axeptio-cookies.zip"
         }
     }
+  },
+     {
+    "type": "package",
+    "package": {
+        "name": "translatepress-business",
+        "type": "wordpress-plugin",
+        "version": "1.2.2",
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/Legapass/ZipTheme/raw/main/translatepress-business.zip"
+        }
+    }
   }
   ],
   "require": {
