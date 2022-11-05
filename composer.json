@@ -52,7 +52,7 @@
      {
     "type": "package",
     "package": {
-        "name": "translatepress/translatepress-business",
+        "name": "translatepress/business",
         "type": "wordpress-plugin",
         "version": "1.2.2",
         "dist": {
@@ -105,7 +105,8 @@
     "koodimonni-language/fr_fr": "*",
     "koodimonni-language/core-fr_fr": "*",
     "hipdevteam/elementor-pro": "*",
-    "axeptio/cookies": ">=1.0.0"
+    "axeptio/cookies": ">=1.0.0",
+    "translatepress/business": "^1.2.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
