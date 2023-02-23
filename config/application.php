@@ -108,6 +108,12 @@ define('S3_UPLOADS_BUCKET_URL', 'https://' . env('CELLAR_ADDON_BUCKET') . '.' . 
 define('S3_UPLOADS_ENDPOINT', 'https://' . env('CELLAR_ADDON_HOST'));
 
 /**
+ * WP Rocket
+ */
+define( 'WP_ROCKET_EMAIL', env('WP_ROCKET_EMAIL'));
+define( 'WP_ROCKET_KEY', env('WP_ROCKET_KEY'));
+
+/**
  * Debugging Settings
  */
 Config::define('WP_DEBUG_DISPLAY', false);
