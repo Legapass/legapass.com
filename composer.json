@@ -109,7 +109,7 @@
     "koodimonni-language/core-fr_fr": "*",
     "hipdevteam/elementor-pro": "*",
     "axeptio/cookies": ">=1.0.0",
-    "translatepress/business": "^1.2.2"
+    "translatepress/business": "^1.2.2",
     "wp-media/wp-rocket": "^3.12.6"
   },
   "require-dev": {
