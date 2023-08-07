@@ -92,6 +92,7 @@
     "wpackagist-theme/hello-elementor": ">=2.4.1",
     "wpackagist-plugin/template-kit-import": ">=1.0.12",
     "wpackagist-plugin/header-footer-elementor": ">=1.6.5",
+    "wpackagist-plugin/split-test-for-elementor": ">=1.6.7",
     "wpackagist-plugin/coming-soon": ">=6.6.0",
     "wpackagist-plugin/contact-form-7": ">=5.5",
     "wpackagist-plugin/wordpress-seo": ">=17.6",
