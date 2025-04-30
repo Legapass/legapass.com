@@ -110,7 +110,7 @@
     "wpackagist-plugin/translatepress-multilingual":"^2.4.0",
     "wpackagist-plugin/forminator":"^1.36.3",
     "wpackagist-plugin/wp-sweep":"^1.1.8",
-    "varnish-http-purge":"^5.2",
+    "wpackagist-plugin/varnish-http-purge":"^5.2",
     "koodimonni-language/fr_fr": "*",
     "koodimonni-language/core-fr_fr": "*",
     "hipdevteam/elementor-pro": "*",
