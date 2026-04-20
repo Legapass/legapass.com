@@ -17,7 +17,12 @@
     }
   ],
   "keywords": [
-    "bedrock", "composer", "roots", "wordpress", "wp", "wp-config"
+    "bedrock",
+    "composer",
+    "roots",
+    "wordpress",
+    "wp",
+    "wp-config"
   ],
   "support": {
     "issues": "https://github.com/roots/bedrock/issues",
@@ -28,55 +33,55 @@
       "type": "composer",
       "url": "https://wpackagist.org"
     },
-     {
+    {
       "type": "composer",
       "url": "https://packagist.org/"
     },
     {
-          "type": "composer",
-          "url": "https://wp-languages.github.io",
-          "only": [
-                "koodimonni-language/*",
-                "koodimonni-plugin-language/*",
-                "koodimonni-theme-language/*"
-            ]
-     },
+      "type": "composer",
+      "url": "https://wp-languages.github.io",
+      "only": [
+        "koodimonni-language/*",
+        "koodimonni-plugin-language/*",
+        "koodimonni-theme-language/*"
+      ]
+    },
     {
-    "type": "package",
-    "package": {
+      "type": "package",
+      "package": {
         "name": "themeforest/veapp",
         "type": "wordpress-plugin",
         "version": "1.0.0",
         "dist": {
-            "type": "zip",
-            "url": "https://github.com/Legapass/ZipTheme/raw/main/themeforest-npL3X2Ms-veapp-mobile-startup-template-kit.zip"
+          "type": "zip",
+          "url": "https://github.com/Legapass/ZipTheme/raw/main/themeforest-npL3X2Ms-veapp-mobile-startup-template-kit.zip"
         }
-    }
-  },
-     {
-    "type": "package",
-    "package": {
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "translatepress/business",
         "type": "wordpress-plugin",
         "version": "1.2.2",
         "dist": {
-            "type": "zip",
-            "url": "https://github.com/Legapass/ZipTheme/raw/main/translatepress-business-1.2.2.zip"
+          "type": "zip",
+          "url": "https://github.com/Legapass/ZipTheme/raw/main/translatepress-business-1.2.2.zip"
         }
-    }
-  },
+      }
+    },
     {
-    "type": "package",
-    "package": {
+      "type": "package",
+      "package": {
         "name": "axeptio/cookies",
         "type": "wordpress-plugin",
         "version": "1.0.0",
         "dist": {
-            "type": "zip",
-            "url": "https://github.com/Legapass/ZipTheme/raw/main/axeptio-cookies.zip"
+          "type": "zip",
+          "url": "https://github.com/Legapass/ZipTheme/raw/main/axeptio-cookies.zip"
         }
+      }
     }
-  }
   ],
   "require": {
     "php": ">=8.4",
@@ -98,19 +103,20 @@
     "wpackagist-plugin/coming-soon": ">=6.6.0",
     "wpackagist-plugin/contact-form-7": ">=5.5",
     "wpackagist-plugin/wordpress-seo": ">=17.6",
-    "wpackagist-plugin/classic-editor" : "^1.6.2",
-    "wpackagist-plugin/wp-smushit":  "^3.9.2",
+    "wpackagist-plugin/classic-editor": "^1.6.2",
+    "wpackagist-plugin/wp-smushit": "^3.9.2",
     "wpackagist-plugin/wp-2fa": "^2.0.1",
     "wpackagist-plugin/disable-xml-rpc": "^1.0.1",
     "wpackagist-plugin/headers-security-advanced-hsts-wp": "^5.2.4",
     "wpackagist-plugin/seo-by-rank-math": "^1.0.80",
     "wpackagist-plugin/wp-mail-smtp": "^3.2.1",
     "wpackagist-plugin/gtranslate": "^2.9.10",
-    "wpackagist-plugin/cf7-invisible-recaptcha":"^1.3.3",
-    "wpackagist-plugin/translatepress-multilingual":"^2.4.0",
-    "wpackagist-plugin/forminator":"^1.36.3",
-    "wpackagist-plugin/wp-sweep":"^1.1.8",
-    "wpackagist-plugin/varnish-http-purge":"^5.2",
+    "wpackagist-plugin/cf7-invisible-recaptcha": "^1.3.3",
+    "wpackagist-plugin/translatepress-multilingual": "^2.4.0",
+    "wpackagist-plugin/forminator": "^1.36.3",
+    "wpackagist-plugin/wp-sweep": "^1.1.8",
+    "wpackagist-plugin/varnish-http-purge": "^5.2",
+    "wpackagist-plugin/safe-svg": "^2.4.0",
     "koodimonni-language/fr_fr": "*",
     "koodimonni-language/core-fr_fr": "*",
     "hipdevteam/elementor-pro": "*",
@@ -124,9 +130,9 @@
   },
   "config": {
     "allow-plugins": {
-    "composer/installers": true,
-    "koodimonni/composer-dropin-installer": true,
-    "roots/wordpress-core-installer": true
+      "composer/installers": true,
+      "koodimonni/composer-dropin-installer": true,
+      "roots/wordpress-core-installer": true
     },
     "optimize-autoloader": true,
     "preferred-install": "dist",
@@ -136,14 +142,26 @@
   "prefer-stable": true,
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+      "web/app/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "web/app/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "web/app/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
     },
-     "dropin-paths": {
-            "htdocs/wp-content/languages/": ["vendor:koodimonni-language"],
-            "htdocs/wp-content/languages/plugins/": ["vendor:koodimonni-plugin-language"],
-            "htdocs/wp-content/languages/themes/": ["vendor:koodimonni-theme-language"]
+    "dropin-paths": {
+      "htdocs/wp-content/languages/": [
+        "vendor:koodimonni-language"
+      ],
+      "htdocs/wp-content/languages/plugins/": [
+        "vendor:koodimonni-plugin-language"
+      ],
+      "htdocs/wp-content/languages/themes/": [
+        "vendor:koodimonni-theme-language"
+      ]
     },
     "wordpress-install-dir": "web/wp"
   },
