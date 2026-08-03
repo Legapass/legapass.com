@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fb957c6a60b548e1272bd7420f247e1e",
+    "content-hash": "d72a62ccb881a35f49e9eee0fd3c79a1",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -3524,15 +3524,15 @@
         },
         {
             "name": "wpackagist-plugin/coming-soon",
-            "version": "6.20.4",
+            "version": "6.20.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/coming-soon/",
-                "reference": "tags/6.20.4"
+                "reference": "tags/6.20.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/coming-soon.6.20.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/coming-soon.6.20.7.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3632,15 +3632,15 @@
         },
         {
             "name": "wpackagist-plugin/header-footer-elementor",
-            "version": "2.9.1",
+            "version": "2.9.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/header-footer-elementor/",
-                "reference": "tags/2.9.1"
+                "reference": "tags/2.9.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/header-footer-elementor.2.9.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/header-footer-elementor.2.9.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3650,15 +3650,15 @@
         },
         {
             "name": "wpackagist-plugin/headers-security-advanced-hsts-wp",
-            "version": "5.3.2",
+            "version": "5.3.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/headers-security-advanced-hsts-wp/",
-                "reference": "tags/5.3.2"
+                "reference": "tags/5.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/headers-security-advanced-hsts-wp.5.3.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/headers-security-advanced-hsts-wp.5.3.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3686,15 +3686,15 @@
         },
         {
             "name": "wpackagist-plugin/seo-by-rank-math",
-            "version": "1.0.273",
+            "version": "1.0.275",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/seo-by-rank-math/",
-                "reference": "tags/1.0.273"
+                "reference": "tags/1.0.275"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/seo-by-rank-math.1.0.273.zip"
+                "url": "https://downloads.wordpress.org/plugin/seo-by-rank-math.1.0.275.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3704,15 +3704,15 @@
         },
         {
             "name": "wpackagist-plugin/split-test-for-elementor",
-            "version": "1.9.1",
+            "version": "1.9.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/split-test-for-elementor/",
-                "reference": "tags/1.9.1"
+                "reference": "tags/1.9.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/split-test-for-elementor.1.9.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/split-test-for-elementor.1.9.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3776,15 +3776,15 @@
         },
         {
             "name": "wpackagist-plugin/varnish-http-purge",
-            "version": "5.12.0",
+            "version": "5.12.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/varnish-http-purge/",
-                "reference": "tags/5.12.0"
+                "reference": "tags/5.12.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/varnish-http-purge.5.12.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/varnish-http-purge.5.12.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3794,15 +3794,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "28.0",
+            "version": "28.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/28.0"
+                "reference": "tags/28.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.28.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.28.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
