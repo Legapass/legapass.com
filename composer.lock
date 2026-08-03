@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d72a62ccb881a35f49e9eee0fd3c79a1",
+    "content-hash": "3e97e54dcfe3985fed58aa4869feb6e2",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -3613,24 +3613,6 @@
             "homepage": "https://wordpress.org/plugins/forminator/"
         },
         {
-            "name": "wpackagist-plugin/gtranslate",
-            "version": "2.9.15",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/gtranslate/",
-                "reference": "tags/2.9.15"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gtranslate.2.9.15.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/gtranslate/"
-        },
-        {
             "name": "wpackagist-plugin/header-footer-elementor",
             "version": "2.9.2",
             "source": {
@@ -3791,24 +3773,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/varnish-http-purge/"
-        },
-        {
-            "name": "wpackagist-plugin/wordpress-seo",
-            "version": "28.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/28.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.28.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
             "name": "wpackagist-plugin/wp-2fa",
