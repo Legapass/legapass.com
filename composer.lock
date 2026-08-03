@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ac0e0324ab135c650d01469265c02e9",
+    "content-hash": "6e98f0a035722751fcbc66bb63594ee5",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -3591,24 +3591,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/bulk-post-update-date/"
-        },
-        {
-            "name": "wpackagist-plugin/cf7-invisible-recaptcha",
-            "version": "1.3.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/cf7-invisible-recaptcha/",
-                "reference": "tags/1.3.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cf7-invisible-recaptcha.1.3.4.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/cf7-invisible-recaptcha/"
         },
         {
             "name": "wpackagist-plugin/classic-editor",
