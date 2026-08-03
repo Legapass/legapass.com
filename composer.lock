@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e98f0a035722751fcbc66bb63594ee5",
+    "content-hash": "67501fdca42c46aed605980714b9f9ac",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -3627,24 +3627,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/coming-soon/"
-        },
-        {
-            "name": "wpackagist-plugin/contact-form-7",
-            "version": "6.1.6",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/6.1.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.6.1.6.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/contact-form-7/"
         },
         {
             "name": "wpackagist-plugin/disable-xml-rpc",
