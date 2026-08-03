@@ -26,15 +26,70 @@ It will assume your GitHub account is linked to your CleverCloud account. If not
 
 **Important note :** At this time, your WordPress installation is not capable of sending any emails. Follow  [CleverCloud's documentation](https://www.clever-cloud.com/doc/php/php-apps/#sending-emails) to configure your SMTP server, of activate and configure the `Mailgun` plugin installed by default.
 
-## Installing themes and plugins
+## Gestion des dépendances (legapass.com)
 
-Your WordPress installation is now fully managed by _composer_ and [WordPress Packagist](https://wpackagist.org). So to install themes or plugins, you'll have to add them to the `composer.json` file, and commit. The dependencies will be fetched by _composer_ during CleverCloud rebuild of your project.
+WordPress, les thèmes et les extensions sont entièrement pilotés par _composer_. **Aucune
+mise à jour ne passe par l'admin WordPress** : `DISALLOW_FILE_MODS` est à `true` dans
+[config/application.php](config/application.php).
 
-**Important note :** Pay attention to how you define your [dependencies with composer](https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies), being strict, or having them automatically update if needed when it rebuilds. The stricter way would even be to locally `composer update` your project and commit your own `composer.lock` file.
+### Le composer.lock fait foi
 
-## Keeping WP updated
+Toutes les versions sont épinglées de façon exacte dans `composer.json`, et `composer.lock`
+est versionné. Clever Cloud exécute `composer install`, qui lit **uniquement** le lock :
+un déploiement réinstalle donc exactement les mêmes versions qu'au déploiement précédent.
 
-As for themes and plugins, keeping WordPress updated must be done by the dependencies way. That means you'll have to change the WordPress version in your `composer.json` file and commit. Once restarted, if you are connected as administrator, a page will propose you to do the database update, if any.
+C'est volontaire. Avant, les contraintes étaient ouvertes (`>=6.5`, `*`) et sans lock :
+chaque rebuild réinstallait silencieusement les dernières versions disponibles de
+WordPress et de toutes les extensions, sans que personne ne l'ait demandé ni testé.
+
+**Ne jamais lancer `composer update` sans intention explicite** : cela remonte tout d'un
+coup. Utilisez la procédure ci-dessous.
+
+### Mettre à jour une extension (ou WordPress)
+
+Une seule à la fois, pour que chaque montée de version reste identifiable et réversible
+dans l'historique git :
+
+```bash
+# 1. Modifier la version voulue dans composer.json, par exemple :
+#    "wpackagist-plugin/elementor": "4.1.4"  ->  "4.2.1"
+
+# 2. Recalculer le lock pour ce seul paquet et ses dépendances
+composer update wpackagist-plugin/elementor --with-dependencies
+
+# 3. Vérifier qu'aucune vulnérabilité connue n'est introduite
+composer audit
+
+# 4. Commiter composer.json ET composer.lock ensemble
+git add composer.json composer.lock
+git commit -m "Elementor 4.1.4 -> 4.2.1"
+```
+
+Pour WordPress, pensez à monter `roots/wordpress` **et** les deux paquets de langue
+`koodimonni-language/fr_fr` et `koodimonni-language/core-fr_fr` sur le même numéro de
+version. Après déploiement, connectez-vous en administrateur : WordPress proposera la
+mise à jour de la base de données si nécessaire.
+
+### Ajouter une extension
+
+Ajoutez-la à `composer.json` avec une version exacte, puis `composer update <paquet>`.
+Les sources disponibles sont déclarées dans la section `repositories` : [wpackagist](https://wpackagist.org)
+pour le répertoire officiel, packagist pour le reste.
+
+### Version de PHP
+
+L'application Clever Cloud tourne en **PHP 8.4**, et `config.platform.php` du
+`composer.json` reflète cette valeur. Composer résout donc les dépendances pour la
+plateforme réelle du serveur, quelle que soit la version de PHP installée sur la machine
+qui lance la commande.
+
+Si la version PHP est changée depuis la console Clever Cloud, il faut ajuster
+`config.platform.php` **et** la contrainte `require.php` (actuellement `>=8.4`), puis
+régénérer le lock :
+
+```bash
+composer update --lock
+```
 
 ## Differences with Bedrock
 
