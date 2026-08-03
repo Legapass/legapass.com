@@ -10,6 +10,8 @@
 
 use Roots\WPConfig\Config;
 
+use function Env\env;
+
 /** @var string Directory containing all of the site's files */
 $root_dir = dirname(__DIR__);
 
@@ -17,16 +19,25 @@ $root_dir = dirname(__DIR__);
 $webroot_dir = $root_dir . '/web';
 
 /**
- * Expose global env() function from oscarotero/env
+ * Use Dotenv to set required environment variables and load .env file in root.
+ *
+ * Sur Clever Cloud il n'y a pas de fichier .env : les variables sont injectées
+ * dans l'environnement du processus, et env() les lit via getenv(). Ce bloc ne
+ * sert donc qu'au développement local.
+ *
+ * PutenvAdapter est indispensable : sans lui, les valeurs du .env seraient
+ * placées dans $_ENV uniquement, et getenv() — donc env() — ne les verrait pas.
  */
-Env::init();
-
-/**
- * Use Dotenv to set required environment variables and load .env file in root
- */
-$dotenv = Dotenv\Dotenv::create($root_dir);
 if (file_exists($root_dir . '/.env')) {
+    $repository = Dotenv\Repository\RepositoryBuilder::createWithNoAdapters()
+        ->addAdapter(Dotenv\Repository\Adapter\EnvConstAdapter::class)
+        ->addAdapter(Dotenv\Repository\Adapter\PutenvAdapter::class)
+        ->immutable()
+        ->make();
+
+    $dotenv = Dotenv\Dotenv::create($repository, $root_dir, ['.env'], false);
     $dotenv->load();
+
     $dotenv->required(['WP_HOME', 'WP_SITEURL']);
     if (!env('DATABASE_URL')) {
         $dotenv->required(['DB_NAME', 'DB_USER', 'DB_PASSWORD']);
