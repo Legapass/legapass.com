@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "701b3f5dea02281f11479f76dccf3cd8",
+    "content-hash": "c55614a2c565c5815c7b32e08f975308",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -3887,15 +3887,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-2fa",
-            "version": "2.9.3",
+            "version": "4.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-2fa/",
-                "reference": "tags/2.9.3"
+                "reference": "tags/4.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-2fa.2.9.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-2fa.4.1.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
