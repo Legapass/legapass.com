@@ -2,9 +2,19 @@
 web/app/plugins/*
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
+web/app/themes/*
+!web/app/themes/.gitkeep
 web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
+
+# Fichiers de langue installes par koodimonni/composer-dropin-installer.
+# NB : `extra.dropin-paths` du composer.json pointe vers htdocs/wp-content/languages/,
+# un chemin qui n'existe pas ici (l'install est web/wp + contenu web/app). WordPress
+# cherche ses traductions dans web/app/languages/ : ces fichiers ne sont donc jamais
+# utilises. A corriger separement, le passage en francais de l'admin etant un
+# changement fonctionnel a valider.
+htdocs/
 
 # WordPress
 web/wp
