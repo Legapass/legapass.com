@@ -78,10 +78,18 @@ pour le répertoire officiel, packagist pour le reste.
 
 ### Version de PHP
 
-`config.platform.php` fixe la cible de résolution à PHP 8.4. Le lock reste donc valide
-pour PHP 8.4 comme pour 8.5. Si la version PHP de l'application Clever Cloud descend
-sous 8.4, il faut ajuster cette valeur **et** la contrainte `require.php`, puis
-régénérer le lock.
+L'application Clever Cloud tourne en **PHP 8.4**, et `config.platform.php` du
+`composer.json` reflète cette valeur. Composer résout donc les dépendances pour la
+plateforme réelle du serveur, quelle que soit la version de PHP installée sur la machine
+qui lance la commande.
+
+Si la version PHP est changée depuis la console Clever Cloud, il faut ajuster
+`config.platform.php` **et** la contrainte `require.php` (actuellement `>=8.4`), puis
+régénérer le lock :
+
+```bash
+composer update --lock
+```
 
 ## Differences with Bedrock
 
