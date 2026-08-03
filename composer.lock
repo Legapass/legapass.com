@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61bf3aed3c1cea0bb5416631df33281a",
+    "content-hash": "701b3f5dea02281f11479f76dccf3cd8",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -3905,15 +3905,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
-            "version": "3.11.1",
+            "version": "4.9.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
-                "reference": "tags/3.11.1"
+                "reference": "tags/4.9.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.3.11.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.4.9.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3923,15 +3923,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-smushit",
-            "version": "3.24.0",
+            "version": "4.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-smushit/",
-                "reference": "tags/3.24.0"
+                "reference": "tags/4.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-smushit.3.24.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-smushit.4.2.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
