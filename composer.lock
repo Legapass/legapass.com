@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c55614a2c565c5815c7b32e08f975308",
+    "content-hash": "d036dfb3f5defb57572e9f128f2fd325",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -3851,15 +3851,15 @@
         },
         {
             "name": "wpackagist-plugin/translatepress-multilingual",
-            "version": "2.10.7",
+            "version": "3.2.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/translatepress-multilingual/",
-                "reference": "tags/2.10.7"
+                "reference": "tags/3.2.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/translatepress-multilingual.2.10.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/translatepress-multilingual.3.2.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
