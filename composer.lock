@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "67501fdca42c46aed605980714b9f9ac",
+    "content-hash": "076a77f351bed83373e0d9349798a12d",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -2928,15 +2928,6 @@
             "time": "2026-05-26T12:45:58+00:00"
         },
         {
-            "name": "themeforest/veapp",
-            "version": "1.0.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/Legapass/ZipTheme/raw/main/themeforest-npL3X2Ms-veapp-mobile-startup-template-kit.zip"
-            },
-            "type": "wordpress-plugin"
-        },
-        {
             "name": "translatepress/business",
             "version": "1.2.2",
             "dist": {
@@ -3575,24 +3566,6 @@
             "time": "2026-07-23T13:40:26+00:00"
         },
         {
-            "name": "wpackagist-plugin/bulk-post-update-date",
-            "version": "1.6.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/bulk-post-update-date/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/bulk-post-update-date.zip?timestamp=1722626195"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/bulk-post-update-date/"
-        },
-        {
             "name": "wpackagist-plugin/classic-editor",
             "version": "1.7.0",
             "source": {
@@ -3665,24 +3638,6 @@
             "homepage": "https://wordpress.org/plugins/elementor/"
         },
         {
-            "name": "wpackagist-plugin/forminator",
-            "version": "1.56.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/forminator/",
-                "reference": "tags/1.56.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/forminator.1.56.2.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/forminator/"
-        },
-        {
             "name": "wpackagist-plugin/header-footer-elementor",
             "version": "2.9.2",
             "source": {
@@ -3753,24 +3708,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/split-test-for-elementor/"
-        },
-        {
-            "name": "wpackagist-plugin/template-kit-import",
-            "version": "1.0.16",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/template-kit-import/",
-                "reference": "tags/1.0.16"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/template-kit-import.1.0.16.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/template-kit-import/"
         },
         {
             "name": "wpackagist-plugin/timeline-widget-addon-for-elementor",
