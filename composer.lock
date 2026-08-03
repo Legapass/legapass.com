@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d036dfb3f5defb57572e9f128f2fd325",
+    "content-hash": "a5dd1e121012186a5508a4319c40aa53",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -3740,24 +3740,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/header-footer-elementor/"
-        },
-        {
-            "name": "wpackagist-plugin/headers-security-advanced-hsts-wp",
-            "version": "5.3.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/headers-security-advanced-hsts-wp/",
-                "reference": "tags/5.3.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/headers-security-advanced-hsts-wp.5.3.3.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/headers-security-advanced-hsts-wp/"
         },
         {
             "name": "wpackagist-plugin/safe-svg",
