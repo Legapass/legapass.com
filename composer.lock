@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ce476220370c30f0cf2fd19b2ec11000",
+    "content-hash": "61bf3aed3c1cea0bb5416631df33281a",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -696,16 +696,16 @@
         },
         {
             "name": "hipdevteam/elementor-pro",
-            "version": "4.1.2",
+            "version": "4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/hipdevteam/elementor-pro.git",
-                "reference": "891145fb1d459bdb76230ab4c5489370049ed734"
+                "reference": "f1a9b35a096f0f71088f2cd37225d0f88a1d9efe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/hipdevteam%2Felementor-pro/repository/archive.zip?sha=891145fb1d459bdb76230ab4c5489370049ed734",
-                "reference": "891145fb1d459bdb76230ab4c5489370049ed734",
+                "url": "https://gitlab.com/api/v4/projects/hipdevteam%2Felementor-pro/repository/archive.zip?sha=f1a9b35a096f0f71088f2cd37225d0f88a1d9efe",
+                "reference": "f1a9b35a096f0f71088f2cd37225d0f88a1d9efe",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -713,9 +713,9 @@
             "description": "Fork of Elementor Pro for use with composer",
             "support": {
                 "issues": "https://gitlab.com/hipdevteam/elementor-pro/-/issues",
-                "source": "https://gitlab.com/hipdevteam/elementor-pro/-/tree/4.1.2"
+                "source": "https://gitlab.com/hipdevteam/elementor-pro/-/tree/4.2.1"
             },
-            "time": "2026-06-25T17:03:14+00:00"
+            "time": "2026-07-30T08:14:22+00:00"
         },
         {
             "name": "humanmade/s3-uploads",
@@ -3689,15 +3689,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "4.1.4",
+            "version": "4.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/4.1.4"
+                "reference": "tags/4.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.4.1.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.4.2.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
