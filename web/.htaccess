@@ -1,3 +1,44 @@
+# BEGIN Security headers
+#
+# En-têtes de sécurité servis par Apache plutôt que par une extension WordPress.
+# Deux raisons :
+#   - ils couvrent TOUTES les réponses, fichiers statiques compris (CSS, JS, images),
+#     que l'extension ne touchait pas — or « nosniff » sert précisément là ;
+#   - « always set » écrase toute valeur émise en amont par PHP, ce qui supprime les
+#     doublons observés sur les pages mises en cache.
+#
+# Ce bloc est placé hors des marqueurs « BEGIN/END WordPress » : WordPress ne réécrit
+# que ce qui se trouve entre ces marqueurs.
+#
+<IfModule mod_headers.c>
+    # Force HTTPS pendant un an.
+    # « includeSubDomains » est volontairement absent : app.legapass.com utilise un
+    # certificat auto-signé et deviendrait inaccessible, sans possibilité pour le
+    # visiteur de passer outre. À réactiver une fois ce sous-domaine réglé.
+    # « preload » l'est aussi : il exige includeSubDomains, et l'inscription sur
+    # hstspreload.org est très difficile à annuler.
+    Header always set Strict-Transport-Security "max-age=31536000"
+
+    # Interdit au navigateur de réinterpréter le type MIME déclaré par le serveur.
+    Header always set X-Content-Type-Options "nosniff"
+
+    # Ne transmet l'URL complète en referer qu'aux pages du même domaine.
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+    # Anti-clickjacking. Remplace X-Frame-Options, dont la directive « ALLOW-FROM »
+    # n'est supportée par aucun navigateur actuel et ne protégeait donc rien.
+    # 'self' est conservé pour que l'administration WordPress reste utilisable.
+    Header always set Content-Security-Policy "frame-ancestors 'self' https://not.legapass.com"
+
+    # Désactive les API navigateur dont le site n'a pas l'usage.
+    Header always set Permissions-Policy "accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=()"
+
+    # Nom d'en-tête abandonné depuis 2015, ignoré par tous les navigateurs actuels.
+    # Le laisser en place laisse croire à une protection qui n'existe pas.
+    Header always unset X-Content-Security-Policy
+</IfModule>
+# END Security headers
+
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
