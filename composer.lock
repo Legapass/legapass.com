@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "561431611e00ec28309875c98ea2fbf8",
+    "content-hash": "a0a3019ff4fedcdd747df2a893a09ed2",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -2458,16 +2458,16 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v7.4.9",
+            "version": "v7.4.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "b75663ed96cf4756e28e3105476f220f92886cc4"
+                "reference": "e3822e1cb7013a0a99b3c578130458927ec4eb89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/b75663ed96cf4756e28e3105476f220f92886cc4",
-                "reference": "b75663ed96cf4756e28e3105476f220f92886cc4",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/e3822e1cb7013a0a99b3c578130458927ec4eb89",
+                "reference": "e3822e1cb7013a0a99b3c578130458927ec4eb89",
                 "shasum": ""
             },
             "require": {
@@ -2503,7 +2503,7 @@
             "description": "Converts CSS selectors to XPath expressions",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/css-selector/tree/v7.4.9"
+                "source": "https://github.com/symfony/css-selector/tree/v7.4.17"
             },
             "funding": [
                 {
@@ -2523,7 +2523,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-04-18T13:18:21+00:00"
+            "time": "2026-08-21T17:40:08+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -3180,16 +3180,16 @@
         },
         {
             "name": "wordpress/php-mcp-schema",
-            "version": "v0.1.2",
+            "version": "v0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/php-mcp-schema",
-                "reference": "95df8a50a3bd54f6b7c4869c6e2185db380d4d63"
+                "reference": "b2fcf97aa023ce46e9f03493c194a72d5a46bea2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/php-mcp-schema/zipball/95df8a50a3bd54f6b7c4869c6e2185db380d4d63",
-                "reference": "95df8a50a3bd54f6b7c4869c6e2185db380d4d63",
+                "url": "https://api.github.com/repos/WordPress/php-mcp-schema/zipball/b2fcf97aa023ce46e9f03493c194a72d5a46bea2",
+                "reference": "b2fcf97aa023ce46e9f03493c194a72d5a46bea2",
                 "shasum": ""
             },
             "require": {
@@ -3223,7 +3223,7 @@
                 "php",
                 "schema"
             ],
-            "time": "2026-06-05T08:26:32+00:00"
+            "time": "2026-08-10T09:12:14+00:00"
         },
         {
             "name": "wp-media/apply-filters-typed",
@@ -3271,16 +3271,16 @@
         },
         {
             "name": "wp-media/mcp-oauth",
-            "version": "v1.0.3",
+            "version": "v1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/mcp-oauth.git",
-                "reference": "c19fc9ec1e084f678f0eb2cf049f3f752712ceac"
+                "reference": "0d170542ffe5435f8bfaf4852ea1567f043790f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/mcp-oauth/zipball/c19fc9ec1e084f678f0eb2cf049f3f752712ceac",
-                "reference": "c19fc9ec1e084f678f0eb2cf049f3f752712ceac",
+                "url": "https://api.github.com/repos/wp-media/mcp-oauth/zipball/0d170542ffe5435f8bfaf4852ea1567f043790f2",
+                "reference": "0d170542ffe5435f8bfaf4852ea1567f043790f2",
                 "shasum": ""
             },
             "require": {
@@ -3293,11 +3293,11 @@
                 "php": ">=7.4",
                 "php-stubs/wordpress-tests-stubs": "^6.8",
                 "phpcompatibility/phpcompatibility-wp": "^2.0",
-                "phpstan/extension-installer": "^1.3",
-                "phpstan/phpstan-mockery": "^1.1",
-                "phpstan/phpstan-phpunit": "^1.4",
+                "phpstan/extension-installer": "^1.4",
+                "phpstan/phpstan-mockery": "^2.0",
+                "phpstan/phpstan-phpunit": "^2.0",
                 "roave/security-advisories": "dev-master",
-                "szepeviktor/phpstan-wordpress": "^1.3",
+                "szepeviktor/phpstan-wordpress": "^2.0",
                 "wp-coding-standards/wpcs": "^3",
                 "wp-media/phpunit": "^3"
             },
@@ -3326,9 +3326,9 @@
             ],
             "support": {
                 "issues": "https://github.com/wp-media/mcp-oauth/issues",
-                "source": "https://github.com/wp-media/mcp-oauth/tree/v1.0.3"
+                "source": "https://github.com/wp-media/mcp-oauth/tree/v1.1"
             },
-            "time": "2026-07-21T19:13:38+00:00"
+            "time": "2026-08-13T12:37:37+00:00"
         },
         {
             "name": "wp-media/plugin-family",
@@ -3381,16 +3381,16 @@
         },
         {
             "name": "wp-media/wp-mixpanel",
-            "version": "v1.4.1",
+            "version": "v1.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/wp-mixpanel.git",
-                "reference": "09dea8a51f97e8047defc9f8a995b87dec76baad"
+                "reference": "424106dea366f96cb21d9ccb537e388ec1187a57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/wp-mixpanel/zipball/09dea8a51f97e8047defc9f8a995b87dec76baad",
-                "reference": "09dea8a51f97e8047defc9f8a995b87dec76baad",
+                "url": "https://api.github.com/repos/wp-media/wp-mixpanel/zipball/424106dea366f96cb21d9ccb537e388ec1187a57",
+                "reference": "424106dea366f96cb21d9ccb537e388ec1187a57",
                 "shasum": ""
             },
             "require": {
@@ -3430,22 +3430,22 @@
             "description": "WordPress Mixpanel Integration",
             "support": {
                 "issues": "https://github.com/wp-media/wp-mixpanel/issues",
-                "source": "https://github.com/wp-media/wp-mixpanel/tree/v1.4.1"
+                "source": "https://github.com/wp-media/wp-mixpanel/tree/v1.4.4"
             },
-            "time": "2026-05-29T18:02:43+00:00"
+            "time": "2026-08-05T15:47:15+00:00"
         },
         {
             "name": "wp-media/wp-rocket",
-            "version": "v3.23.1",
+            "version": "v3.23.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-media/wp-rocket.git",
-                "reference": "0bb38d3cf58fc7e29c0ee6c5f07c6a8e7f98571f"
+                "reference": "607225609f1a2869392ff138eab9ffabf9818389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/0bb38d3cf58fc7e29c0ee6c5f07c6a8e7f98571f",
-                "reference": "0bb38d3cf58fc7e29c0ee6c5f07c6a8e7f98571f",
+                "url": "https://api.github.com/repos/wp-media/wp-rocket/zipball/607225609f1a2869392ff138eab9ffabf9818389",
+                "reference": "607225609f1a2869392ff138eab9ffabf9818389",
                 "shasum": ""
             },
             "require": {
@@ -3456,7 +3456,7 @@
                 "wp-media/apply-filters-typed": "^1.0",
                 "wp-media/mcp-oauth": "^1.0.1",
                 "wp-media/plugin-family": "1.0.8",
-                "wp-media/wp-mixpanel": "^1.0"
+                "wp-media/wp-mixpanel": "^1.4.4"
             },
             "require-dev": {
                 "berlindb/core": "2.0.2",
@@ -3469,6 +3469,7 @@
                 "mobiledetect/mobiledetectlib": "^2.8",
                 "php": "^7.4 || ^8",
                 "php-stubs/wordpress-tests-stubs": "^6.8",
+                "php-stubs/wp-cli-stubs": "^2.12",
                 "phpcompatibility/phpcompatibility-wp": "^2.0",
                 "phpstan/extension-installer": "^1.3",
                 "phpstan/phpstan-mockery": "^1.1",
@@ -3563,7 +3564,7 @@
                 "issues": "https://github.com/wp-media/wp-rocket/issues",
                 "source": "https://github.com/wp-media/wp-rocket"
             },
-            "time": "2026-07-23T13:40:26+00:00"
+            "time": "2026-08-20T08:03:58+00:00"
         },
         {
             "name": "wpackagist-plugin/classic-editor",
