@@ -101,6 +101,7 @@
     "wpackagist-plugin/wp-smushit": "4.2.0",
     "wpackagist-plugin/wp-2fa": "4.1.0",
     "wpackagist-plugin/disable-xml-rpc": "1.0.1",
+    "wpackagist-plugin/simple-cloudflare-turnstile": "1.42.1",
     "wpackagist-plugin/seo-by-rank-math": "1.0.275",
     "wpackagist-plugin/wp-mail-smtp": "4.9.0",
     "wpackagist-plugin/translatepress-multilingual": "3.2.6",

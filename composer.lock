@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "87d974e32e6d377b770f9d4641c44e54",
+    "content-hash": "bcdc47800b75da605237515e9dba26a4",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -3690,6 +3690,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/seo-by-rank-math/"
+        },
+        {
+            "name": "wpackagist-plugin/simple-cloudflare-turnstile",
+            "version": "1.42.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/simple-cloudflare-turnstile/",
+                "reference": "tags/1.42.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-cloudflare-turnstile.1.42.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simple-cloudflare-turnstile/"
         },
         {
             "name": "wpackagist-plugin/split-test-for-elementor",
