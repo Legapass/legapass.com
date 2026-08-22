@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "076a77f351bed83373e0d9349798a12d",
+    "content-hash": "87d974e32e6d377b770f9d4641c44e54",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -753,16 +753,16 @@
         },
         {
             "name": "hipdevteam/elementor-pro",
-            "version": "4.2.1",
+            "version": "4.2.2",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/hipdevteam/elementor-pro.git",
-                "reference": "f1a9b35a096f0f71088f2cd37225d0f88a1d9efe"
+                "reference": "c79588f7e80629d1e3b4c2b9dfd4646d1a81c2cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/hipdevteam%2Felementor-pro/repository/archive.zip?sha=f1a9b35a096f0f71088f2cd37225d0f88a1d9efe",
-                "reference": "f1a9b35a096f0f71088f2cd37225d0f88a1d9efe",
+                "url": "https://gitlab.com/api/v4/projects/hipdevteam%2Felementor-pro/repository/archive.zip?sha=c79588f7e80629d1e3b4c2b9dfd4646d1a81c2cc",
+                "reference": "c79588f7e80629d1e3b4c2b9dfd4646d1a81c2cc",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -770,9 +770,9 @@
             "description": "Fork of Elementor Pro for use with composer",
             "support": {
                 "issues": "https://gitlab.com/hipdevteam/elementor-pro/-/issues",
-                "source": "https://gitlab.com/hipdevteam/elementor-pro/-/tree/4.2.1"
+                "source": "https://gitlab.com/hipdevteam/elementor-pro/-/tree/4.2.2"
             },
-            "time": "2026-07-30T08:14:22+00:00"
+            "time": "2026-08-20T08:27:15+00:00"
         },
         {
             "name": "humanmade/s3-uploads",
@@ -3621,15 +3621,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "4.2.1",
+            "version": "4.2.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/4.2.1"
+                "reference": "tags/4.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.4.2.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.4.2.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4982,16 +4982,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.13.5",
+            "version": "3.13.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
-                "reference": "0ca86845ce43291e8f5692c7356fccf3bcf02bf4"
+                "reference": "4c378e1a528ea066890fc2397cbdd2f94eb2fc91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/0ca86845ce43291e8f5692c7356fccf3bcf02bf4",
-                "reference": "0ca86845ce43291e8f5692c7356fccf3bcf02bf4",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/4c378e1a528ea066890fc2397cbdd2f94eb2fc91",
+                "reference": "4c378e1a528ea066890fc2397cbdd2f94eb2fc91",
                 "shasum": ""
             },
             "require": {
@@ -5057,7 +5057,7 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2025-11-04T16:30:35+00:00"
+            "time": "2026-08-06T00:17:32+00:00"
         }
     ],
     "aliases": [],
