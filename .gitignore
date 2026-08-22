@@ -32,3 +32,6 @@ web/wp
 
 # WP-CLI
 wp-cli.local.yml
+
+# Lien local Clever Cloud CLI
+.clever.json
